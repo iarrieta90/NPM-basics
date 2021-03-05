@@ -11,5 +11,12 @@
   "moduleDirectories": [
     "node_modules",
     "src"
-  ]
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
