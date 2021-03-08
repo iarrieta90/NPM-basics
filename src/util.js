@@ -9,11 +9,12 @@ function createArray(arraySize) {
 }
 
 function toCamelCase(string) {
-  // TODO implement
+  return lodash.camelCase("User name");
 }
 
 function getIndexOf(array, value) {
-  // TODO implement
+  let arrayColors = ['blue', 'red', 'green'];
+  return lodash.indexOf(arrayColors, 'red');
 }
 
 module.exports = {

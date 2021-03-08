@@ -9,15 +9,15 @@ function getFullDate() {
 }
 
 function getWeekDay() {
-  // TODO implement
+  return moment().day();
 }
 
 function getCurrentMonth() {
-  // TODO implement
+  return moment().month();
 }
 
 function getCurrentYear() {
-  // TODO implement
+  return moment().year();
 }
 
 module.exports = {
